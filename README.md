@@ -1,6 +1,6 @@
-# first-estension README
+# first-extension README
 
-This is the README for your extension "first-estension". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "first-extension". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 

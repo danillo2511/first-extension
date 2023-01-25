@@ -1,5 +1,5 @@
 {
-  "name": "first-estension",
+  "name": "first-extension",
   "displayName": "first-extension",
   "description": "my first extension",
   "version": "0.0.1",
@@ -10,13 +10,13 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:first-estension.helloWorld"
+    "onCommand:first-extension.helloWorld"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "first-estension.helloWorld",
+        "command": "first-extension.helloWorld",
         "title": "Hello World"
       }
     ]
