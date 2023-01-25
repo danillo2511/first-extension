@@ -10,21 +10,28 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:first-extension.helloWorld"
+    "onCommand:first-extension.helloWorld",
+    "onCommand:first-extension.pizza"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "first-extension.helloWorld",
+        "category": "FE",
         "title": "Hello World"
+      },
+      {
+        "command": "first-extension.pizza",
+        "category": "FE",
+        "title": "Pizza"
       }
     ]
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
     "compile": "webpack",
-    "watch": "webpack --watch",
+    "watch": "webpack --watch --config webpack.config.js",
     "package": "webpack --mode production --devtool hidden-source-map",
     "compile-tests": "tsc -p . --outDir out",
     "watch-tests": "tsc -p . -w --outDir out",
